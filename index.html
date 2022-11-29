@@ -4,15 +4,21 @@
         <meta charset="UTF-8"/>
         <title>Koji Software</title>
         <link rel="stylesheet" href="style.css"/>
+        <script async defer>function find() {let key = document.getElementById("search_bar").value;
+        if (key == "buddies adventure") {window.open("/demo/ba/")} else {}}</script>
     </head>
     <body dir="ltr">
         <main>
             <div class="header">
                 Koji Software
             </div>
-            <div class="space" style="height:15px;">
+            <div class="space" style="height:20px;">
             </div>
             <div class="content">
+                <form method="GET">
+                    <input type="text" placeholder="search our website" id="search_bar"/>
+                    <input type="submit" onclick="find()" value="Search"/>
+                </form>
                 <big>About</big>
                 <p>Welcome to Koji Software's website<br/>
                 which we have many games and you don't have to have an account to play them<br/>
