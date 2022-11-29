@@ -1,0 +1,59 @@
+.header
+{
+    color:white;
+    background-color:black;
+    font-size:20px;
+    top:0;
+    left:0;
+    position:absolute;
+    width:100%;
+    text-align:center;
+}
+
+.copyright {
+    text-align:center;
+}
+
+.end
+{
+    color:white;
+    background-color:darkblue;
+    bottom:0;
+    left:0;
+    position:absolute;
+    width:100%;
+    text-align:center;
+}
+
+.space
+{
+    width:0px;
+    height:10px;
+    background-color:transparent;
+}
+
+.content
+{
+    font-size:20px;
+}
+
+button
+{
+    height:60px;
+    color:white;
+    background-color:darkblue;
+    border:none;
+    border-radius:8px;
+    font-size:20px;
+    transition-duration:300ms;
+    box-shadow:3px 3px 3px rgba(18, 18, 18, 0.546);
+}
+
+button:hover
+{
+    background-color:darkred;
+    cursor:pointer;
+    height:70px;
+    transition-duration:300ms;
+    box-shadow:5px 5px 5px rgba(18, 18, 18, 0.546);
+}
