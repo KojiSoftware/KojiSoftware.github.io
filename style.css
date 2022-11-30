@@ -39,7 +39,7 @@
 
 button
 {
-    height:30px;
+    height:40px;
     color:white;
     background-color:darkblue;
     border:none;
@@ -54,6 +54,7 @@ button:hover
     background-color:darkred;
     cursor:pointer;
     height:50px;
+    font-size:30px;
     transition-duration:300ms;
     box-shadow:5px 5px 5px rgba(18, 18, 18, 0.546);
 }
