@@ -39,7 +39,7 @@
 
 button
 {
-    height:60px;
+    height:30px;
     color:white;
     background-color:darkblue;
     border:none;
@@ -53,7 +53,12 @@ button:hover
 {
     background-color:darkred;
     cursor:pointer;
-    height:70px;
+    height:50px;
     transition-duration:300ms;
     box-shadow:5px 5px 5px rgba(18, 18, 18, 0.546);
+}
+
+input[type="text"] 
+{
+    text-transform:lowercase;
 }
