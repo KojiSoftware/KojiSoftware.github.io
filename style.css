@@ -62,3 +62,14 @@ input[type="text"]
 {
     text-transform:lowercase;
 }
+
+a
+{
+    text-decoration:none;
+    color:red;
+}
+
+a:hover
+{
+    color:lawngreen;
+}
