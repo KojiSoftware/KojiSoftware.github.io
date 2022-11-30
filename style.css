@@ -39,12 +39,12 @@
 
 button
 {
-    height:10px;
+    height:15px;
     color:white;
     background-color:darkblue;
     border:none;
     border-radius:8px;
-    font-size:5px;
+    font-size:10px;
     transition-duration:300ms;
     box-shadow:3px 3px 3px rgba(18, 18, 18, 0.546);
 }
@@ -54,7 +54,7 @@ button:hover
     background-color:darkred;
     cursor:pointer;
     height:20px;
-    font-size:10px;
+    font-size:15px;
     transition-duration:300ms;
     box-shadow:5px 5px 5px rgba(18, 18, 18, 0.546);
 }
