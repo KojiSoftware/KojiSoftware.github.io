@@ -8,12 +8,13 @@ header
 {
   height:100px;
   width:100%;
-  top:0;
-  left:0;
+  top:0px;
+  left:0px;
   color:white;
   background-color:black;
   postion:absolute;
   font-size:90px;
+  text-align:center;
 }
 
 home
