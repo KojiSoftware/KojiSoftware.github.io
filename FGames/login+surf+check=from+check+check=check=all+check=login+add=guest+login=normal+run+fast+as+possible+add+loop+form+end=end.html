@@ -4,18 +4,20 @@
     <meta charset="UTF-8"/>
     <title>Login to FGames</title>
     <link rel="stylesheet" href="login.css"/>
-    <script async defer>function login() {window.open("/FGames/games?loggedin=true");</script>
   </head>
   <body dir="ltr">
     <main>
-      <div align="center" class="menu">
+      <center>
         <h1>FGames Login</h1>
-        <form method="GET">
-          <input type="text" placeholder="name" id="name"/><br/>
-          <input type="submit" onclick="login()"/>
-        </form>
-        Or <a href="/FGames/games">Browse As Guest</a><br/><br/>
-        Copyright &copy; FGames 2022 All Rights Reserved
+      </center>
+      <div align="center">
+        <div class="menu">
+          <form method="GET" action="/FGames/games">
+            <input type="text" placeholder="name" name="logged"/><br/>
+            <input type="submit" value="Login"/>
+          </form>
+          Or <a href="/FGames/games">Browse As Guest</a><br/><br/>
+          Copyright &copy; FGames 2022 All Rights Reserved
       </div>
     </main>
   </body>
