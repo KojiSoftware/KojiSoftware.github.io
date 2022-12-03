@@ -7,8 +7,9 @@
     <style id="editor">body, html {color:white; background-color:rgb(18,18,18);}
     textarea {height:500px; width:700px; font-size:15px; border:none; color:purple; background-color:grey;
     border-radius:8px; box-shadow:5px 5px 5px rgba(0,0,0,.255); text-align:left;}</style>
-    <script async defer>setInterval(currtime, infinite); let infinite = 999999999999999999999999999999999999999999999999999999999999999999999999999;
-    function currtime() {let current = Date(); document.getElementById("time").innerText = current;}</script>
+    <script async defer>setInterval(currtime, infinite); // Alotta code stuff & things
+    let infinite = 999999999999999999999999999999999999999999999999999999999999999999999999999;
+    function currtime() {let current = Date(); document.getElementById("time").innerText = current + 1;}</script>
     <noscript class="nojs">
       <!DOCTYPE html>
       <html lang="en-US">
@@ -50,7 +51,7 @@
       </div>
       <div class="editor">
         <div class="input">
-          <textarea></textarea>
+          <textarea spellcheck="false"></textarea>
         </div>
       </div>
       <div class="end">
