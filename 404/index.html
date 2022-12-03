@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>404 Error</title>
+  </head>
+  <body dir="ltr">
+    <main>
+      <h1>Koji Software 404</h1>
+      Enter the page you go to / for home<br/>
+      /install is install page /install/ba1<br/>
+      is install buddies adventure 1<br/>
+      /demo is demo page<br/>
+      /demo/ba1/ is buddies adventure 1 demo<br/>
+      /codeditor/ is our code editor<br/>
+      /git/ is our git<br/>
+      /git/ispy is our git for our search engine we made<br/>
+      search below &downarrow;
+      <form method="GET">
+        <input type="text" id="find"/>
+        <input type="submit" onclick="search()" value="Search"/>
+      </form>
+      <script async defer>function search() {let key = document.getElementById("find").value;
+       window.open(key) /* <- opens the directory searched for by the user who made it the 404 page*/}</script>
+    </main>
+  </body>
+</html>
