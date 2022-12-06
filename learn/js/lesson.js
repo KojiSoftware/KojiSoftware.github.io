@@ -13,7 +13,7 @@ function part1() {
       
 function try_part1() {
   document.getElementById("lesson").innerHTML = "<h1>Try Console Logging</h1><div id='comp5'></div>";
-  document.getElementById("comp5").innerHTML = "<form method='GET'><input type='text' id='getter' placeholder='enter in console.log('hello world');'/><input type='submit' value='compile' onclick='compile()'/></form><br/><div id='terminal'></div>";
+  document.getElementById("comp5").innerHTML = "<form method='GET'><input type='text' id='getter' placeholder='enter in console.log(&quot;hello world&quot;);'/><input type='submit' value='compile' onclick='compile()'/></form><br/><div id='terminal'></div>";
 }
 
 function compile()
@@ -21,9 +21,9 @@ function compile()
   let compiler = document.getElementById('getter').value;
   
   if (compiler == "console.log('hello world');") {
-    document.getElementById("terminal").innerHTML = "<big>HELLO WORLD</big><br/><button onclick='part2()'>Next</button>";
+    part2;
   } else if (compiler == 'console.log("hello world");') {
-    document.getElementById("terminal").innerHTML = "<big>HELLO WORLD</big><br/><button onclick='part2()'>Next</button>";
+    part2;
   } else {
     // do nothing
   }
