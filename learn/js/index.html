@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8"/>
     <title>KojiLearn &dash; JS</title>
-    <script src="lesson.js" async defer></script>
   </head>
   <body dir="ltr">
     <main>
       <div id="lesson">
       </div>
+      <script async defer>
+      window.onload = function()
+      {
+        document.getElementById("lesson").innerHTML = "<h1>Learn JavaScript</h1><div id='comp1'></div>";
+        document.getElementById("comp1").innerHTML = "<big>Basic Info</big><div id='info'></div>";
+        document.getElementById("info").innerHTML = "<p></p>";
+      }
+      </script>
     </main>
   </body>
 </html>
