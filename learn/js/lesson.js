@@ -6,10 +6,11 @@ window.onload = function() {
 }
         
 function part1() {
- document.getElementById("lesson").innerHTML = "<h1>JavaScript Logging</h1><div id='comp3'></div>";
- document.getElementById("comp3").innerHTML = "How to log to the console, this is to print something to the terminal try so how you do this is you type <b>console.log('your message');</b><div id='comp4'></div>";
- document.getElementById("comp4").innerHTML = "<button onclick='trypart1()'>Try it</button>";
+  document.getElementById("lesson").innerHTML = "<h1>JavaScript Logging</h1><div id='comp3'></div>";
+  document.getElementById("comp3").innerHTML = "How to log to the console, this is to print something to the terminal try so how you do this is you type <b>console.log('your message');</b><div id='comp4'></div>";
+  document.getElementById("comp4").innerHTML = "<button onclick='try_part1()'>Try it</button>";
 }
       
-function trypart1() {
+function try_part1() {
+  document.getElementById("lesson").innerHTML = "<h1>Try Console Logging</h1><div id='comp5'></div>";
 }
