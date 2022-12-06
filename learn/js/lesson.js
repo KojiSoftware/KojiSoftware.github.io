@@ -7,7 +7,7 @@ window.onload = function() {
         
 function part1() {
   document.getElementById("lesson").innerHTML = "<h1>JavaScript Logging</h1><div id='comp3'></div>";
-  document.getElementById("comp3").innerHTML = "How to log to the console, this is to print something to the terminal try so how you do this is you type <b>console.log('your message');</b><br/><div id='comp4'></div>";
+  document.getElementById("comp3").innerHTML = "How to log to the console, this is to print something to the terminal<br/>try so how you do this is you type <b>console.log('your message');</b><br/><br/><div id='comp4'></div>";
   document.getElementById("comp4").innerHTML = "<button onclick='try_part1()'>Try it</button>";
 }
       
