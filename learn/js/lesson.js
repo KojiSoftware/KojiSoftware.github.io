@@ -7,10 +7,27 @@ window.onload = function() {
         
 function part1() {
   document.getElementById("lesson").innerHTML = "<h1>JavaScript Logging</h1><div id='comp3'></div>";
-  document.getElementById("comp3").innerHTML = "How to log to the console, this is to print something to the terminal try so how you do this is you type <b>console.log('your message');</b><div id='comp4'></div>";
+  document.getElementById("comp3").innerHTML = "How to log to the console, this is to print something to the terminal try so how you do this is you type <b>console.log('your message');</b><br/><div id='comp4'></div>";
   document.getElementById("comp4").innerHTML = "<button onclick='try_part1()'>Try it</button>";
 }
       
 function try_part1() {
   document.getElementById("lesson").innerHTML = "<h1>Try Console Logging</h1><div id='comp5'></div>";
+  document.getElementById("comp5").innerHTML = "<form method='GET'><input type='text' id='getter' placeholder='enter in console.log('hello world');'/><input type='submit' value='compile' onclick='compile()'/></form><br/><div id='terminal'></div>";
+}
+
+function compile()
+{
+  let compiler = document.getElementById('getter').value;
+  
+  if (compiler == "console.log('hello world');") {
+    document.getElementById("terminal").innerHTML = "<big>HELLO WORLD</big><br/><button onclick='part2()'>Next</button>";
+  } else if (compiler == 'console.log("hello world");') {
+    document.getElementById("terminal").innerHTML = "<big>HELLO WORLD</big><br/><button onclick='part2()'>Next</button>";
+  } else {
+    // do nothing
+  }
+}
+
+function part2() {
 }
