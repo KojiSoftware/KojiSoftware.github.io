@@ -21,9 +21,21 @@ function compile()
   let compiler = document.getElementById('getter').value;
   
   if (compiler == "console.log('hello world');") {
-    part2();
+    let compiler = true;
+    
+    if (compiler == true) {
+    document.getElementById("<big>hello world</big><br/><br/><button onclick='part2()'>Next</button>");
+    } else {
+      // do nothing
+    }
   } else if (compiler == 'console.log("hello world");') {
-    part2();
+    let compiler = true;
+    
+    if (compiler == true) {
+    document.getElementById("<big>hello world</big><br/><br/><button onclick='part2()'>Next</button>");
+    } else {
+      // do nothing
+    }
   } else {
     // do nothing
   }
