@@ -30,4 +30,5 @@ function compile()
 }
 
 function part2() {
+  document.getElementById("lesson").innerHTML = "<h1>JavaScript Variables</h1><div id='comp6'></div>";
 }
