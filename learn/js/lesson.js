@@ -21,10 +21,15 @@ function compile()
   let compiler = document.getElementById('getter').value;
   
   if (compiler == "console.log('hello world');") {
+    part2();
   } else if (compiler == 'console.log("hello world");') {
+    part2();
   } else if (compiler == 'console.log("hello world")') {
+    part2();
   } else if (compiler == "console.log('hello world')") {
+    part2();
   } else {
+    // do nothing
   }
 }
 
