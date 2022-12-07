@@ -34,5 +34,15 @@ function compile()
 }
 
 function part2() {
-  document.getElementById("lesson").innerHTML = "<h1>JavaScript Variables</h1><div id='comp6'></div>";
+  document.getElementById("lesson").innerHTML = "<h1>JavaScript Variables</h1></div><div id='comp6'></div>";
+  document.getElementById("comp6").innerHTML = "How to add variables, well first if you don't know what variables are they are something that stores data like var hi = 'hello'<div id='comp7'></div>";
+  document.getElementById("comp7").innerHTML = "which basically means when I call hi you say 'hello' you can make a variable with these three keywords<br/>const, let, var<div id='comp8'></div>";
+  document.getElementById("comp8").innerHTML = "const (is a value that never changes), let &amp; var mean the same thing but we recommed using let instead of var if you get an error then use var!<div id='comp9'></div>";
+  document.getElementById("comp9").innerHTML = "<button onclick='try_part2'()>Try it</button>";
+}
+
+function try_part2() {
+}
+
+function compile_part2() {
 }
