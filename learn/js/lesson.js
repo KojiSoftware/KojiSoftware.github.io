@@ -21,23 +21,10 @@ function compile()
   let compiler = document.getElementById('getter').value;
   
   if (compiler == "console.log('hello world');") {
-    let compiler = true;
-    
-    if (compiler == true) {
-    document.getElementById("<big>hello world</big><br/><br/><button onclick='part2()'>Next</button>");
-    } else {
-      // do nothing
-    }
   } else if (compiler == 'console.log("hello world");') {
-    let compiler = true;
-    
-    if (compiler == true) {
-    document.getElementById("<big>hello world</big><br/><br/><button onclick='part2()'>Next</button>");
-    } else {
-      // do nothing
-    }
+  } else if (compiler == 'console.log("hello world")') {
+  } else if (compiler == "console.log('hello world')") {
   } else {
-    // do nothing
   }
 }
 
