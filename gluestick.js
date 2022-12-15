@@ -7,7 +7,7 @@ function htmls(){document.getElementById("app").innerHTML=""; /* add HTML code i
 window.open(/* service you want */);};function styles(){
 document.getElementById("app").style=""; /* Add CSS in qoutes */} // boot sector for app
 var bootApp=function boot() {var access=true;if (access==true) {
-setTimeout('window.open("app.html")', 5000) // waits 5 seconds for browser}
+setTimeout('window.open("app.html")', 5000) /* waits 5 seconds for browser */ }
 else if (access==false) {return FALSE; window.open("http://kojisoftware.github.io/404");} 
 else {return null;};}; var nonLegacyBoot=function nlBoot(){var nlAccess=true;if (nlAccess==true) {window.open("app.html");}
 else if (nlAccess==false) {return FALSE; window.open("http://kojisoftware.github.io/404");} else {return null;};}
